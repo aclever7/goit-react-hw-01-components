@@ -1,0 +1,32 @@
+.title {
+  padding-top: 15px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+/* ul */
+.statList {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 0.5px solid #999;
+  width: 100%;
+  padding: 15px 0;
+}
+
+.label {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.percentage {
+  font-weight: 700;
+}
